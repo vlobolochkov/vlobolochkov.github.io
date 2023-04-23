@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -7,10 +7,71 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>WebCore 1.6</title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <header class="main-header">
+      <div class="main-header__burger">
+        <button><img src="/src/img/burger.svg" alt="burger" /></button>
+      </div>
+      <nav class="main-header__nav">
+        <div class="main-header__nav__logo"
+          ><img src="/src/img/logo.svg" alt="CPS"
+        /></div>
+        <ul class="main-header__nav__list">
+          <li class="main-header__nav__list__item"
+            ><a href="#">Ремонт техники</a></li
+          >
+          <li class="main-header__nav__list__item"
+            ><a href="#">Услуги и сервисы</a></li
+          >
+          <li class="main-header__nav__list__item"
+            ><a href="#">Корпоративным клиентам</a></li
+          >
+          <li class="main-header__nav__list__item"
+            ><a href="#">Продавцам техники</a></li
+          >
+          <li class="main-header__nav__list__item"
+            ><a href="#">Партнерам</a></li
+          >
+          <li class="main-header__nav__list__item"
+            ><a href="#">Производителям</a></li
+          >
+          <li class="main-header__nav__list__item"
+            ><a href="#">Наши сервисные центры</a></li
+          >
+          <li class="main-header__nav__list__item"><a href="#">Контакты</a></li>
+        </ul>
+        <div>
+          <button class="main-header__nav__btn main-header__nav__btn--call"
+            ><img src="/src/img/call.svg" alt="call"
+          /></button>
+          <button class="main-header__nav__btn main-header__nav__btn--chat"
+            ><img src="/src/img/chat.svg" alt="chat"
+          /></button>
+          <button class="main-header__nav__btn main-header__nav__btn--profile"
+            ><img src="/src/img/profile.svg" alt="profile"
+          /></button>
+        </div>
+        <p class="main-header__nav__mail">mail@cps.com</p>
+        <h1 class="main-header__nav__phone">8 800 890 8900</h1>
+        <div class="main-header__nav__lang">
+          <button class="main-header__nav__lang__item">RU</button>
+          <button class="main-header__nav__lang__item">EN</button>
+          <button class="main-header__nav__lang__item">CH</button>
+        </div>
+      </nav>
+    </header>
+    <!-- <main>
+      <div>
+        <button class="main-header__nav__btn main-header__nav__btn--repair"
+          ><img src="/src/img/repair.svg" alt="repair"
+        /></button>
+        <button class="main-header__nav__btn main-header__nav__btn--checkstatus"
+          ><img src="/src/img/checkstatus.svg" alt="checkstatus"
+        /></button>
+      </div>
+    </main> -->
+    <footer></footer>
   </body>
 </html>

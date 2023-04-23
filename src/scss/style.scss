@@ -7,11 +7,31 @@ $text: #fff;
   font-weight: normal;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Lakes Regular';
+  src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lakes Medium';
+  src: url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lakes Bold';
+  src: url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
 
 body {
-  padding: 1rem;
+  padding: 0;
   margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
+  font-family: 'Lakes Medium', sans-serif;
 }
+
+@import './header.scss';
