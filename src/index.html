@@ -11,14 +11,17 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="main-header__burger">
-        <button><img src="/src/img/burger.svg" alt="burger" /></button>
-      </div>
       <nav class="main-header__nav">
+        <div class="main-header__nav__burger">
+          <button class="main-header__nav__burger--btn"
+            ><img src="/src/img/burger.svg" alt="burger"
+          /></button>
+        </div>
         <div class="main-header__nav__logo"
-          ><img src="/src/img/logo.svg" alt="CPS"
-        /></div>
-        <ul class="main-header__nav__list">
+          ><button class="main-header__nav__logo--btn">
+            <img src="/src/img/logo.svg" alt="CPS" /> </button
+        ></div>
+        <ul class="main-header__nav__list displayNone">
           <li class="main-header__nav__list__item"
             ><a href="#">Ремонт техники</a></li
           >
@@ -42,36 +45,42 @@
           >
           <li class="main-header__nav__list__item"><a href="#">Контакты</a></li>
         </ul>
-        <div>
-          <button class="main-header__nav__btn main-header__nav__btn--call"
+        <div class="main-header__nav__option displayNone">
+          <button
+            class="main-header__nav__option__btn main-header__nav__option__btn--call"
             ><img src="/src/img/call.svg" alt="call"
           /></button>
-          <button class="main-header__nav__btn main-header__nav__btn--chat"
+          <button
+            class="main-header__nav__option__btn main-header__nav__option__btn--chat"
             ><img src="/src/img/chat.svg" alt="chat"
           /></button>
-          <button class="main-header__nav__btn main-header__nav__btn--profile"
+          <button
+            class="main-header__nav__option__btn main-header__nav__option__btn--profile"
             ><img src="/src/img/profile.svg" alt="profile"
           /></button>
         </div>
-        <p class="main-header__nav__mail">mail@cps.com</p>
-        <h1 class="main-header__nav__phone">8 800 890 8900</h1>
-        <div class="main-header__nav__lang">
-          <button class="main-header__nav__lang__item">RU</button>
-          <button class="main-header__nav__lang__item">EN</button>
-          <button class="main-header__nav__lang__item">CH</button>
+        <div class="main-header__nav__info displayNone">
+          <p class="main-header__nav__mail">mail@cps.com</p>
+          <h1 class="main-header__nav__phone">8 800 890 8900</h1>
+          <div class="main-header__nav__lang">
+            <button class="main-header__nav__lang__item">RU</button>
+            <button class="main-header__nav__lang__item">EN</button>
+            <button class="main-header__nav__lang__item">CH</button>
+          </div>
         </div>
       </nav>
-    </header>
-    <!-- <main>
-      <div>
-        <button class="main-header__nav__btn main-header__nav__btn--repair"
+      <div class="main-header__status-btn">
+        <button
+          class="main-header__status-btn__btn main-header__status-btn__btn--repair"
           ><img src="/src/img/repair.svg" alt="repair"
         /></button>
-        <button class="main-header__nav__btn main-header__nav__btn--checkstatus"
+        <button
+          class="main-header__status-btn__btn main-header__status-btn__btn--checkstatus"
           ><img src="/src/img/checkstatus.svg" alt="checkstatus"
         /></button>
       </div>
-    </main> -->
+    </header>
+    <main> </main>
     <footer></footer>
   </body>
 </html>

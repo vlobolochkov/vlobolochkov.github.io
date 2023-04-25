@@ -1,3 +1,31 @@
-.main-header__nav__list {
+.main-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #41f6d7;
+  min-height: 87px;
+}
+
+.main-header__nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.displayNone {
   display: none;
+}
+
+.main-header__nav__burger--btn,
+.main-header__nav__logo--btn,
+.main-header__nav__option__btn,
+.main-header__status-btn__btn {
+  background-color: transparent;
+  border: none;
 }
