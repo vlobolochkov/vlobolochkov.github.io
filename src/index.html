@@ -12,73 +12,95 @@
   <body>
     <header class="main-header">
       <nav class="main-header__nav">
-        <div class="main-header__nav__burger">
-          <button class="main-header__nav__burger--btn"
-            ><img src="/src/img/burger.svg" alt="burger"
+        <input id="menu__toggle" type="checkbox" />
+        <label class="main-header__nav__burger" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <div class="main-header__nav__buttons">
+          <div class="main-header__nav__buttons--close-menu">
+            <button class="main-header__nav__buttons--close-menu--repair">
+              <img src="/src/img/repair.svg" alt="repair" />
+            </button>
+            <button class="main-header__nav__buttons--close-menu--repair">
+              <img src="/src/img/checkstatus.svg" alt="checkstatus" />
+            </button>
+          </div>
+
+          <div class="main-header__nav__buttons--open-menu">
+            <button class="main-header__nav__buttons--open-menu--search">
+              <img src="/src/img/search.svg" alt="search" />
+            </button>
+          </div>
+
+          <button class="main-header__nav__logo--btn">
+            <img src="/src/img/logo.svg" alt="CPS"
           /></button>
         </div>
-        <div class="main-header__nav__logo"
-          ><button class="main-header__nav__logo--btn">
-            <img src="/src/img/logo.svg" alt="CPS" /> </button
-        ></div>
-        <ul class="main-header__nav__list displayNone">
-          <li class="main-header__nav__list__item"
+
+        <ul class="main-header__nav__list">
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
             ><a href="#">Ремонт техники</a></li
           >
-          <li class="main-header__nav__list__item"
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
             ><a href="#">Услуги и сервисы</a></li
           >
-          <li class="main-header__nav__list__item"
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
             ><a href="#">Корпоративным клиентам</a></li
           >
-          <li class="main-header__nav__list__item"
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
             ><a href="#">Продавцам техники</a></li
           >
-          <li class="main-header__nav__list__item"
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
             ><a href="#">Партнерам</a></li
           >
-          <li class="main-header__nav__list__item"
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
             ><a href="#">Производителям</a></li
           >
-          <li class="main-header__nav__list__item"
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
             ><a href="#">Наши сервисные центры</a></li
           >
-          <li class="main-header__nav__list__item"><a href="#">Контакты</a></li>
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--link"
+            ><a href="#">Контакты</a></li
+          >
+          <li class="main-header__nav__list__item">
+            <button class="main-header__nav__list__item--btn"
+              ><img src="/src/img/call.svg" alt="call"
+            /></button>
+            <button class="main-header__nav__list__item--btn"
+              ><img src="/src/img/chat.svg" alt="chat"
+            /></button>
+            <button class="main-header__nav__list__item--btn"
+              ><img src="/src/img/profile.svg" alt="profile"
+            /></button>
+          </li>
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--mail"
+            ><span>mail@cps.com</span></li
+          >
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--phone"
+            ><span>8 800 890 8900</span></li
+          >
+          <li
+            class="main-header__nav__list__item main-header__nav__list__item--lang"
+          >
+            <button class="main-header__nav__list__item--btn--lang">RU</button>
+            <button class="main-header__nav__list__item--btn--lang">EN</button>
+            <button class="main-header__nav__list__item--btn--lang"
+              >CH</button
+            ></li
+          >
         </ul>
-        <div class="main-header__nav__option displayNone">
-          <button
-            class="main-header__nav__option__btn main-header__nav__option__btn--call"
-            ><img src="/src/img/call.svg" alt="call"
-          /></button>
-          <button
-            class="main-header__nav__option__btn main-header__nav__option__btn--chat"
-            ><img src="/src/img/chat.svg" alt="chat"
-          /></button>
-          <button
-            class="main-header__nav__option__btn main-header__nav__option__btn--profile"
-            ><img src="/src/img/profile.svg" alt="profile"
-          /></button>
-        </div>
-        <div class="main-header__nav__info displayNone">
-          <p class="main-header__nav__mail">mail@cps.com</p>
-          <h1 class="main-header__nav__phone">8 800 890 8900</h1>
-          <div class="main-header__nav__lang">
-            <button class="main-header__nav__lang__item">RU</button>
-            <button class="main-header__nav__lang__item">EN</button>
-            <button class="main-header__nav__lang__item">CH</button>
-          </div>
-        </div>
       </nav>
-      <div class="main-header__status-btn">
-        <button
-          class="main-header__status-btn__btn main-header__status-btn__btn--repair"
-          ><img src="/src/img/repair.svg" alt="repair"
-        /></button>
-        <button
-          class="main-header__status-btn__btn main-header__status-btn__btn--checkstatus"
-          ><img src="/src/img/checkstatus.svg" alt="checkstatus"
-        /></button>
-      </div>
     </header>
     <main> </main>
     <footer></footer>
