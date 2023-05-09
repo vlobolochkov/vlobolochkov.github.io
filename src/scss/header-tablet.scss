@@ -1,0 +1,30 @@
+$tablet: 768px;
+
+@media screen and (min-width: $tablet) {
+  .header__nav {
+    width: 320px;
+    box-shadow: 20px -3px 20px 0px #d5d0d0;
+  }
+
+  .header__nav__info {
+    margin-top: 260px;
+  }
+
+  .header__head {
+    justify-content: flex-end;
+  }
+
+  .header__head__btn--logo {
+    margin-right: auto;
+  }
+
+  .header__head__info__btn {
+    display: block;
+  }
+
+  .header__head__info__btn button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
