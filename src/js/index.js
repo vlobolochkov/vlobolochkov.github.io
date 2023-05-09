@@ -1,5 +1,5 @@
 import '../scss/style.scss'
 
-import '../js/header-script.js'
+import './swiper.js'
 
 console.log('Works!')

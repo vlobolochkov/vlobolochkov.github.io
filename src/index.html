@@ -8,6 +8,11 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>WebCore 1.6</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -92,7 +97,149 @@
         </div>
       </nav>
     </header>
-    <main> </main>
+    <main>
+      <div class="main-info">
+        <h1 class="main-info__heading">Услуги и сервисы</h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"
+              ><span class="swiper-slide__caption"
+                >Ремонтируемые бренды</span
+              ></div
+            >
+            <div class="swiper-slide"
+              ><span class="swiper-slide__caption"
+                >Дополнительные услуги</span
+              ></div
+            >
+            <div class="swiper-slide"
+              ><span class="swiper-slide__caption">Цены на услуги</span></div
+            >
+            <div class="swiper-slide"
+              ><span class="swiper-slide__caption"
+                >Адреса сервисных центров</span
+              ></div
+            >
+            <div class="swiper-slide"
+              ><span class="swiper-slide__caption">Специальные цены</span></div
+            >
+            <div class="swiper-slide"
+              ><span class="swiper-slide__caption">Отзывы</span></div
+            >
+          </div>
+        </div>
+        <div class="main-info__caption">
+          <div class="main-info__caption__text">
+            <p class="main-info__caption__text--paragraph"
+              >Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.<br />Мы успешно работаем с
+              1992 года и заслужили репутацию надежного партнера</p
+            >
+            <button class="main-info__caption__text--btn">Читать далее</button>
+          </div>
+          <div class="main-info__caption__img"
+            ><img src="/src/img/cps.jpg" alt="CPS"
+          /></div>
+        </div>
+      </div>
+
+      <div class="main-brands">
+        <h2 class="main-brands__heading">Ремонт техники различных брендов</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/lenovo.png" alt="lenovo" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/samsung.png" alt="samsung" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/apple.png" alt="apple" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/viewsonic.png" alt="viewsonic" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/bosch.png" alt="bosch" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/hp.png" alt="hp" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/acer.png" alt="acer" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide main-brands__elem">
+              <img src="/src/img/main-brands/sony.svg" alt="sony" />
+              <button class="main-brands__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <button class="main-brands__open-all">Показать все</button>
+      </div>
+
+      <div class="main-device">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h3 class="main-device__swiper__elem--heading"
+                >Ремонт ноутбуков</h3
+              >
+              <button class="main-device__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="main-device__swiper__elem--heading"
+                >Ремонт планшетов</h3
+              >
+              <button class="main-device__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="main-device__swiper__elem--heading">Ремонт ПК</h3>
+              <button class="main-device__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="main-device__swiper__elem--heading"
+                >Ремонт мониторов</h3
+              >
+              <button class="main-device__swiper__elem--btn">
+                <img src="/src/img/main-brands/btn-next.svg" alt="next" />
+              </button>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
