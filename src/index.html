@@ -10,96 +10,73 @@
     <title>WebCore 1.6</title>
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-header__nav">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="main-header__nav__burger" for="menu__toggle">
-          <span></span>
-        </label>
-
-        <div class="main-header__nav__buttons">
-          <div class="main-header__nav__buttons--close-menu">
-            <button class="main-header__nav__buttons--close-menu--repair">
-              <img src="/src/img/repair.svg" alt="repair" />
-            </button>
-            <button class="main-header__nav__buttons--close-menu--repair">
-              <img src="/src/img/checkstatus.svg" alt="checkstatus" />
-            </button>
-          </div>
-
-          <div class="main-header__nav__buttons--open-menu">
-            <button class="main-header__nav__buttons--open-menu--search">
-              <img src="/src/img/search.svg" alt="search" />
-            </button>
-          </div>
-
-          <button class="main-header__nav__logo--btn">
-            <img src="/src/img/logo.svg" alt="CPS"
+    <header class="header">
+      <input type="checkbox" id="menu" />
+      <label for="menu" class="header__menu-burger">
+        <span class="header__menu-burger--elem"></span>
+      </label>
+      <div class="header__head">
+        <button class="header__head__btn header__head__btn--logo"
+          ><img src="/src/img/logo.svg" alt="CPS"
+        /></button>
+        <div class="header__nav__head--close">
+          <button class="header__head__btn header__head__btn--repair"
+            ><img src="/src/img/repair.svg" alt="repair"
+          /></button>
+          <button class="header__head__btn header__head__btn--checkstatus"
+            ><img src="/src/img/checkstatus.svg" alt="checkstatus"
           /></button>
         </div>
+      </div>
 
-        <ul class="main-header__nav__list">
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Ремонт техники</a></li
+      <nav class="header__nav">
+        <div class="header__nav__wrapper">
+          <div class="header__nav__head--open">
+            <button class="header__nav__head__btn header__nav__head__btn--logo"
+              ><img src="/src/img/logo.svg" alt="CPS"
+            /></button>
+            <button
+              class="header__nav__head__btn header__nav__head__btn--search"
+              ><img src="/src/img/search.svg" alt="search"
+            /></button>
+          </div>
+        </div>
+
+        <ul class="header__menu">
+          <li class="header__menu__item"><a href="">Ремонт техники</a></li>
+          <li class="header__menu__item"><a href="">Услугии сервисы</a></li>
+          <li class="header__menu__item"
+            ><a href="">Корпоративным клиентам</a></li
           >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Услуги и сервисы</a></li
+          <li class="header__menu__item"><a href="">Продавцам техники</a></li>
+          <li class="header__menu__item"><a href="">Партнерам</a></li>
+          <li class="header__menu__item"><a href="">Производителям</a></li>
+          <li class="header__menu__item"
+            ><a href="">Наши сервисные центры</a></li
           >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Корпоративным клиентам</a></li
-          >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Продавцам техники</a></li
-          >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Партнерам</a></li
-          >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Производителям</a></li
-          >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Наши сервисные центры</a></li
-          >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--link"
-            ><a href="#">Контакты</a></li
-          >
-          <li class="main-header__nav__list__item">
-            <button class="main-header__nav__list__item--btn"
+          <li class="header__menu__item"><a href="">Контакты</a></li>
+        </ul>
+
+        <div class="header__nav__info">
+          <div class="header__nav__info__btn">
+            <button class="header__nav__info__btn--call"
               ><img src="/src/img/call.svg" alt="call"
             /></button>
-            <button class="main-header__nav__list__item--btn"
+            <button class="header__nav__info__btn--chat"
               ><img src="/src/img/chat.svg" alt="chat"
             /></button>
-            <button class="main-header__nav__list__item--btn"
+            <button class="header__nav__info__btn--profile"
               ><img src="/src/img/profile.svg" alt="profile"
             /></button>
-          </li>
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--mail"
-            ><span>mail@cps.com</span></li
+          </div>
+          <p class="header__nav__info__mail">mail@cps.com</p>
+          <p class="header__nav__info__phone">8 800 890 8900</p>
+          <div class="header__nav__info__lang"
+            ><button class="header__nav__info__lang--ru">RU</button
+            ><button class="header__nav__info__lang--en">EN</button
+            ><button class="header__nav__info__lang--ch">CH</button></div
           >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--phone"
-            ><span>8 800 890 8900</span></li
-          >
-          <li
-            class="main-header__nav__list__item main-header__nav__list__item--lang"
-          >
-            <button class="main-header__nav__list__item--btn--lang">RU</button>
-            <button class="main-header__nav__list__item--btn--lang">EN</button>
-            <button class="main-header__nav__list__item--btn--lang"
-              >CH</button
-            ></li
-          >
-        </ul>
+        </div>
       </nav>
     </header>
     <main> </main>
