@@ -1,0 +1,62 @@
+$desktop: 1396px;
+
+@media screen and (min-width: $desktop) {
+  #menu,
+  .header__menu-burger {
+    display: none;
+  }
+
+  .header__head {
+    margin-top: 0px;
+  }
+
+  .header__nav {
+    visibility: visible;
+    left: 0;
+  }
+
+  .header__nav {
+    box-shadow: none;
+  }
+
+  .header__head__info__btn {
+    display: none;
+  }
+
+  .header__head__btn--label {
+    display: block;
+  }
+
+  .header__nav__head--close {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .header__head__btn--repair,
+  .header__head__btn--checkstatus {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 50%;
+  }
+
+  .header__head__btn--repair:hover,
+  .header__head__btn--checkstatus:hover {
+    color: #7e7e82;
+  }
+
+  .header__nav__head--open {
+    margin-left: 22px;
+    justify-content: flex-start;
+  }
+
+  .header__nav__head__btn--search {
+    margin-left: 120px;
+  }
+}

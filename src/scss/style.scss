@@ -35,5 +35,6 @@ body {
   box-sizing: border-box;
 }
 
-@import './header-mobile.scss';
-@import './header-tablet.scss';
+@import './header/header-mobile.scss';
+@import './header/header-tablet.scss';
+@import './header/header-desktop.scss';
