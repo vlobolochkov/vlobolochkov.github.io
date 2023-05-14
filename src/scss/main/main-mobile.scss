@@ -1,0 +1,66 @@
+.swiper,
+.mySwiper,
+.swiper-wrapper,
+.swiper-slide,
+.swiper-slide__caption,
+.swiper-pagination {
+  z-index: 0;
+}
+
+.main-info__heading {
+  border-left: 3px solid #41f6d7;
+  font-size: 28px;
+  padding: 12px;
+}
+
+.swiper-wrapper {
+  box-sizing: border-box;
+}
+
+.main-info__swiper-elem {
+  margin-left: 16px;
+  max-width: 250px;
+}
+
+.main-info__swiper-elem--active {
+  border: 1px solid #41f6d7;
+  border-radius: 6px;
+}
+
+.swiper-slide__caption {
+  text-align: center;
+}
+
+.main-info__caption {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 230px;
+  margin-bottom: 24px;
+}
+
+.main-info__caption__text {
+  width: 90%;
+  margin: auto;
+}
+
+.main-info__caption__img {
+  margin: auto;
+}
+
+.main-info__caption__text--paragraph-second {
+  display: none;
+}
+
+.main-info__caption__text--btn {
+  background-color: transparent;
+  border: none;
+  width: 130px;
+  text-align: right;
+  background-image: url(/src/img/read.svg);
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}

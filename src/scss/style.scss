@@ -33,6 +33,7 @@ body {
   margin: 0;
   font-family: 'Lakes Medium', sans-serif;
   box-sizing: border-box;
+  word-wrap: normal;
 }
 
 @import './header/header-mobile.scss';
