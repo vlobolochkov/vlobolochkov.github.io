@@ -20,6 +20,7 @@
 .main-info__swiper-elem {
   margin-left: 16px;
   max-width: 250px;
+  max-height: 46px;
 }
 
 .main-info__swiper-elem--active {
@@ -28,7 +29,9 @@
 }
 
 .swiper-slide__caption {
+  font-size: 16px;
   text-align: center;
+  margin: 0;
 }
 
 .main-info__caption {
@@ -59,8 +62,137 @@
   background-image: url(/src/img/read.svg);
   background-repeat: no-repeat;
   background-position-y: 50%;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 16px;
   margin-bottom: 16px;
   cursor: pointer;
+}
+
+.main-brands,
+.main-device,
+.main-price {
+  margin-left: 5%;
+}
+
+.main-brands__heading,
+.main-device__heading,
+.main-price__heading {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #7e7e82;
+}
+
+.main-brands__swiper__elem--btn,
+.main-device__swiper__elem--btn,
+.main-price__swiper__elem--btn {
+  background-color: transparent;
+  border: none;
+}
+
+.main-brands__elem {
+  border: 1px solid #7e7e82;
+  border-radius: 6px;
+  max-width: 240px;
+  min-height: 72px;
+  margin-right: 16px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-brands__open-all {
+  display: none;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 16px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #b5b6bc;
+}
+
+.main-device__swiper-elem {
+  max-width: 240px;
+  max-height: 160px;
+  border: 1px solid #7e7e82;
+  border-radius: 6px;
+  margin-right: 16px;
+}
+
+.main-device__swiper__elem--heading {
+  font-weight: normal;
+  margin-left: 16px;
+}
+
+.main-device__swiper__elem--btn {
+  margin-left: 180px;
+}
+
+.main-price__elem {
+  max-width: 260px;
+  max-height: 200px;
+  font-size: 14px;
+  position: relative;
+  margin-right: 28px;
+}
+
+.main-price__elem__btn {
+  text-transform: uppercase;
+  border: none;
+  background-color: #ff3e79;
+  color: #ffffff;
+  border-radius: 16px;
+  width: 120px;
+  height: 32px;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-price__elen__text {
+  max-width: 230px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.main-price__elem__head {
+  color: #7e7e82;
+  margin-bottom: 4px;
+}
+
+.main-price__offer {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  width: 190px;
+  height: 55px;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: #7e7e82;
+  margin-top: 40px;
+}
+
+.footer__text {
+  margin: 0;
+  margin-bottom: 16px;
 }
