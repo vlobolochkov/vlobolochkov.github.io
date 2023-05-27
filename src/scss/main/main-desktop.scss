@@ -1,0 +1,57 @@
+@media screen and (min-width: 1366px) {
+  main,
+  .footer {
+    margin-left: 320px;
+  }
+
+  .main-info__caption {
+    grid-template-rows: 310px;
+  }
+
+  .main-info__caption__img img {
+    width: 530px;
+    height: 100%;
+  }
+
+  #viewsonic,
+  #sony {
+    display: block;
+  }
+
+  .main-brands__wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .main-device__swiper-elem:last-of-type {
+    display: block;
+  }
+
+  .main-price {
+    margin-top: 30px;
+  }
+
+  .main-price__elem {
+    display: grid;
+    max-width: 1056px;
+    grid-template-columns: 350px 74px 81px 120px;
+    grid-template-rows: 64px;
+    justify-content: space-between;
+    align-items: end;
+    justify-items: start;
+    align-content: center;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .main-price__elem__head--table--second {
+    left: 490px;
+  }
+
+  .main-price__elem__head--table--third {
+    left: 710px;
+  }
+
+  .main-price__disclaimer {
+    width: 40%;
+    margin-top: 30px;
+  }
+}
