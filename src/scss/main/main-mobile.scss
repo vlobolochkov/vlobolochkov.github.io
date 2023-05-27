@@ -50,6 +50,11 @@
   margin: auto;
 }
 
+.main-info__caption__img img {
+  width: 320px;
+  height: 230px;
+}
+
 .main-info__caption__text--paragraph-second {
   display: none;
 }
@@ -103,7 +108,8 @@
   align-items: center;
 }
 
-.main-brands__open-all {
+.main-brands__open-all,
+.main-device__open-all {
   display: none;
 }
 

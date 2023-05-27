@@ -1,0 +1,133 @@
+@media screen and (min-width: 768px) {
+  .main-info__caption {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 208px;
+    margin-top: 40px;
+  }
+
+  .main-info__caption__img img {
+    width: 360px;
+  }
+
+  .main-info__caption__text--paragraph-second {
+    display: block;
+  }
+
+  .main-brands {
+    margin-top: 60px;
+    min-height: 290px;
+  }
+
+  .main-brands__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  .main-brands__swiper-pagination {
+    display: none;
+  }
+
+  #viewsonic,
+  #sony {
+    display: none;
+  }
+
+  .main-brands__elem {
+    max-width: 225px;
+    min-height: 70px;
+  }
+
+  .main-brands__open-all,
+  .main-device__open-all {
+    display: block;
+    margin-top: 14px;
+    background-color: transparent;
+    border: none;
+    width: 130px;
+    text-align: right;
+    background-image: url(/src/img/read.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+
+  .main-device__swiper-elem {
+    height: 160px;
+  }
+
+  .main-device__swiper__elem--btn {
+    margin-top: 40px;
+  }
+
+  .main-device__swiper-elem:last-of-type {
+    display: none;
+  }
+
+  .main-device__pagination,
+  .main-price__pagination {
+    display: none;
+  }
+
+  .main-price__wrapper {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 63px;
+  }
+
+  .main-price__elem {
+    display: grid;
+    max-width: 720px;
+    grid-template-columns: 350px 74px 81px 120px;
+    grid-template-rows: 64px;
+    justify-content: space-between;
+    align-items: end;
+    justify-items: start;
+    align-content: center;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .main-price__elem__btn {
+    position: relative;
+  }
+
+  .main-price__elem__head {
+    display: none;
+  }
+
+  .main-price__elem__head--table--first,
+  .main-price__elem__head--table--second,
+  .main-price__elem__head--table--third {
+    display: block;
+    position: absolute;
+    top: -40px;
+  }
+
+  .main-price__elem__head--table--second {
+    left: 380px;
+  }
+
+  .main-price__elem__head--table--third {
+    left: 490px;
+  }
+
+  .main-price__disclaimer {
+    width: 60%;
+  }
+
+  .main-price__offer br {
+    display: none;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

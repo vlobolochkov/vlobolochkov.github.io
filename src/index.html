@@ -139,7 +139,7 @@
             <button class="main-info__caption__text--btn">Читать далее</button>
           </div>
           <div class="main-info__caption__img"
-            ><img src="/src/img/cps.jpg" alt="CPS" width="320px" height="230px"
+            ><img src="/src/img/cps.jpg" alt="CPS"
           /></div>
         </div>
       </div>
@@ -147,7 +147,7 @@
       <div class="main-brands">
         <h2 class="main-brands__heading">Ремонт техники различных брендов</h2>
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper main-brands__wrapper">
             <div class="swiper-slide main-brands__elem">
               <img src="/src/img/main-brands/lenovo.png" alt="lenovo" />
               <button class="main-brands__swiper__elem--btn">
@@ -166,7 +166,7 @@
                 <img src="/src/img/main-brands/btn-next.svg" alt="next" />
               </button>
             </div>
-            <div class="swiper-slide main-brands__elem">
+            <div class="swiper-slide main-brands__elem" id="viewsonic">
               <img src="/src/img/main-brands/viewsonic.png" alt="viewsonic" />
               <button class="main-brands__swiper__elem--btn">
                 <img src="/src/img/main-brands/btn-next.svg" alt="next" />
@@ -190,7 +190,7 @@
                 <img src="/src/img/main-brands/btn-next.svg" alt="next" />
               </button>
             </div>
-            <div class="swiper-slide main-brands__elem">
+            <div class="swiper-slide main-brands__elem" id="sony">
               <img src="/src/img/main-brands/sony.svg" alt="sony" />
               <button class="main-brands__swiper__elem--btn">
                 <img src="/src/img/main-brands/btn-next.svg" alt="next" />
@@ -237,22 +237,32 @@
               </button>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination main-device__pagination"></div>
         </div>
+        <button class="main-device__open-all">Показать все</button>
       </div>
 
       <div class="main-price">
         <h2 class="main-price__heading">Цены на услуги</h2>
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
+        <div class="swiper main-price__swiper">
+          <div class="swiper-wrapper main-price__wrapper">
             <div class="swiper-slide main-price__elem">
-              <span class="main-price__elem__head">Ремонтные услуги</span>
+              <span
+                class="main-price__elem__head main-price__elem__head--table--first"
+                >Ремонтные услуги</span
+              >
               <p class="main-price__elen__text"
                 >Тестирование с выдачей технического заключения</p
               >
-              <span class="main-price__elem__head">Цена</span>
+              <span
+                class="main-price__elem__head main-price__elem__head--table--second"
+                >Цена</span
+              >
               <p class="main-price__elen__text">Бесплатно</p>
-              <span class="main-price__elem__head">Срок</span>
+              <span
+                class="main-price__elem__head main-price__elem__head--table--third"
+                >Срок</span
+              >
               <p class="main-price__elen__text">30-120 мин</p>
               <button class="main-price__elem__btn"
                 ><p class="main-price__elem__btn-text">Заказать</p
@@ -312,7 +322,7 @@
               /></button>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination main-price__pagination"></div>
         </div>
         <p class="main-price__disclaimer"
           >Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную
