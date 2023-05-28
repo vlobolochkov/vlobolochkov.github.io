@@ -98,6 +98,72 @@
       </nav>
     </header>
     <main>
+      <div class="feedback-modal">
+        <input type="checkbox" id="feedback-menu" />
+        <label for="feedback-menu" class="feedback-modal__menu-burger">
+          <span class="feedback-modal__menu-burger--elem"></span>
+        </label>
+        <div class="feedback-modal__form">
+          <h1 class="feedback-modal__form__heading">Обратная связь</h1>
+          <form action="">
+            <input
+              type="text"
+              name="name"
+              id="feedback-name"
+              placeholder="Имя"
+            />
+            <input
+              type="text"
+              name="phone"
+              id="feedback-phone"
+              placeholder="Телефон"
+            />
+            <input
+              type="text"
+              name="mail"
+              id="feedback-mail"
+              placeholder="Электронная почта"
+            />
+            <input
+              type="text"
+              name="text"
+              id="feedback-text"
+              placeholder="Сообщение"
+            />
+            <p class="feedback-modal__form__text"
+              >Нажимая “отправить”, вы даете согласие на
+              <a href="#"> обработку персональных данных </a> и соглашаетесь с
+              нашей <a href="#">политикой конфиденциальности</a></p
+            >
+            <input type="button" value="Отправить >" id="feedback-btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="call-modal">
+        <input type="checkbox" id="call-menu" />
+        <label for="call-menu" class="call-modal__menu-burger">
+          <span class="call-modal__menu-burger--elem"></span>
+        </label>
+        <div class="call-modal__form">
+          <h1 class="call-modal__form__heading">Заказать звонок</h1>
+          <form action="">
+            <input
+              type="text"
+              name="phone"
+              id="call-phone"
+              placeholder="Телефон"
+            />
+            <p class="call-modal__form__text"
+              >Нажимая “отправить”, вы даете согласие на
+              <a href="#"> обработку персональных данных </a> и соглашаетесь с
+              нашей <a href="#">политикой конфиденциальности</a></p
+            >
+            <input type="button" value="Отправить >" id="call-btn" />
+          </form>
+        </div>
+      </div>
+
       <div class="main-info">
         <h1 class="main-info__heading">Услуги и сервисы</h1>
         <div class="swiper mySwiper">
